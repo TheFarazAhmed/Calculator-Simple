@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>C A L C U L A T O R></title>
+    <link  href="style.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet' type='text/css'>
+</head>
+<body>
+    <table>
+        <tr>
+            
+            <tr>
+                <td>
+                    <input type="text" id="lcd" placeholder="0">
+                    <input type="text" id="lcd2">
+                </td>
+            </tr>
+        </tr>
+        
+        <tr>
+            <td>
+                <input id="btn1" type="button" value=" / " onclick="func1('/')">
+                <input id="btn1" type="button" value=" X " onclick="func1('*')">
+                <input id="btn1" type="button" value=" - " onclick="func1('-')">
+               <input id="btn1" type="button" value=" + " onclick="func1('+')">
+                
+                <br>
+                <input id="btn1" type="button" value=" 1 " onclick="func2(1)">
+                <input id="btn1" type="button" value=" 2 " onclick="func2(2)">
+                <input id="btn1" type="button" value=" 3 " onclick="func2(3)">
+                <input id="btn1" type="button" value=" ( ) " onclick="parenthesis()">
+                
+                <br>
+                <input id="btn1" type="button" value=" 4 " onclick="func2(4)">
+                <input id="btn1" type="button" value=" 5 " onclick="func2(5)">
+                <input id="btn1" type="button" value=" 6 " onclick="func2(6)">
+                <input id="btn1" type="button" value="Clr" onclick="clrscr()" id="clear" style="font-weight: bold; color: white ; background: Red;" >
+                
+                <br>
+                <input id="btn1" type="button" value=" 7 " onclick="func2(7)">
+                <input id="btn1" type="button" value=" 8 " onclick="func2(8)">
+                <input id="btn1" type="button" value=" 9 " onclick="func2(9)">
+                <input id="btn1" type="button" value=" Del " onclick="bksp()" style="color: red;">
+               
+                <br>
+                <input id="btn1" type="button" value=" -x " onclick="func1('-x')">
+                <input id="btn1" type="button" value=" 0 " onclick="func2(0)">
+                <input id="btn1" type="button" value=" = " onclick="calculate()">
+                <input id="btn1" type="button" value="Ans" onclick="calculate()">
+                <br>
+            </td>
+        </tr>
+    </table>
+    
+    <br><br><br><br><br><br>
+    <H4> <center> <a  href="mailto:faraz17968@gmail.com" target="_blank">Faraz Ahmed</a> </center>   </H4>
+
+    </body>
+<script src="app.js"></script>
+</html>

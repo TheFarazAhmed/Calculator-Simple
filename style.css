@@ -1,0 +1,63 @@
+body{
+    font-family: 'Orbitron';
+    background-color: grey;
+    font-weight: bolder;
+}
+
+#lcd
+{
+    font-family: 'Orbitron';
+    text-align: right;
+    width: 280px;
+    height: 30px;
+    font-size: 32px;
+    
+    border: none;
+}
+
+#lcd {
+    font-family: 'Orbitron';
+    border-radius: 5px 5px 0px 0px;
+    box-shadow: 2px 2px 2px lightpink;
+}
+
+#lcd2 {
+    font-family: 'Orbitron';
+    text-align: right;
+    width: 280px;
+    height: 30px;
+    font-size: 32px;
+    
+    border: none;
+}
+
+#lcd2 {
+    font-family: 'Orbitron';
+    color: blue;
+    border-radius: 0px 0px 5px 5px;
+    box-shadow: 2px 2px 2px lightpink;
+}
+
+table {
+    font-family: 'Orbitron';
+    width: 250px;
+    margin: 40px auto;
+    border-radius: 8px;
+    padding: 20px 20px;
+    background:  black;
+}
+
+#btn1 {
+    font-family: 'Orbitron';
+    border-radius: 5px 5px 0px 0px;
+    box-shadow: 2px 2px 2px black;
+    height: 50px;
+    width: 60px;
+    color: darkgreen;
+    font-weight: bold;
+    font-size: 130%;
+    background: lightgrey;
+    margin: 3px;
+    border-radius: 3px;
+    border: none;
+}
